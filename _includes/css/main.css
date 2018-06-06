@@ -84,7 +84,12 @@ header {
     text-align: center;
     color: #fff;
     /* background: #{{ site.color.primary }}; */
-    background-image: url("/img/bg_1.jpg");
+    background-image: url("/img/bg_1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    
 }
 
 header .container {
