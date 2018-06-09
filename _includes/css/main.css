@@ -2,6 +2,19 @@
 Added this css updates
 
 */
+#services {
+    background-color: #fff;
+}
+
+#portfolio {
+    background-color: #fff;
+}
+
+#contact {
+background-color: #fff;
+}
+
+
 .col-lg-4 {
     text-align: center;
 }
@@ -71,7 +84,13 @@ hr.wwd {
  */
 
 body {
-    overflow-x: hidden;
+	font-family: Josefin Sans;
+	font-size: 16px;
+	color: #5f5f5f;
+	background-image: url(img/bg_1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%, cover;
+	background-attachment: fixed;
 }
 
 p {
@@ -149,20 +168,14 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    /* background: #{{ site.color.primary }}; */
-    background: url("img/bg_1.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: 100%, cover; 	
-  	padding-top:14%;
-  	padding-bottom:25%;
-    
+    /* background: #{{ site.color.primary }}; */  
+    padding-top: 14%;
+    padding-bottom: 30%;  
 }
 
 header .container {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 header img {
@@ -185,16 +198,16 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        #padding-top: 200px;
+        #padding-bottom: 100px;
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3.75em;
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 1.35em;
     }
 }
 
@@ -226,7 +239,7 @@ header .intro-text .skills {
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    /*font-weight: 700;*/
 }
 
 .navbar a:focus {
@@ -244,15 +257,6 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
-    border-color: transparent;
-	-webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
-	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.22);
-	-webkit-transition: box-shadow .3s ease-in-out;
-	-moz-transition: box-shadow .3s ease-in-out;
-	-ms-transition: box-shadow .3s ease-in-out;
-	-o-transition: box-shadow .3s ease-in-out;
-	transition: box-shadow .3s ease-in-out;
-	background-color: rgba(255,255,255,0.1);
 }
 
 section {
