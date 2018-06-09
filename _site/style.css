@@ -22,6 +22,53 @@ section.success {
     text-align: center;
 }
 
+hr {
+    max-width: 100px;
+    margin: 25px auto 0;
+    border-width: 1px;
+    border-color: rgba(34,34,34,.1);
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-style: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+    border-top: 1px solid rgba(0,0,0,.1);
+        border-top-width: 1px;
+        border-top-color: rgba(255, 255, 255, 0.51) !important;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+hr.wwd {
+	border-top: 1px solid rgba(0,0,0,.1);
+        border-top-width: 1px;
+        border-top-color: rgba(54, 51, 51, 0.13) !important;
+}
+
+.material-icons {
+    font-size: 50px!important;
+}
+
+.row.wwd {
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
 
 
 /*!
